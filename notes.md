@@ -16,10 +16,12 @@
  • There are two major text editors in Linux:
  – vi, emacs (or xemacs).
  • So fire up a text editor; for example:
-   $ vi &
- and type the following inside it:
+   $ vi & and type the following inside it:
+ ---
   #!/bin/bash
     echo “Hello World”
+ ---
+
  • The first line tells Linux to use the bash interpreter to run this script. We call it
    hello.sh. Then, make the script executable:
    $ chmod 700 hello.sh
